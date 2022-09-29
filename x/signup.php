@@ -58,7 +58,7 @@ if(isset($_POST['submit'])){
 
       <input type="username" name="username" placeholder="enter your username" class="box" required>
 
-      <input type="password" name="password" id = "password" placeholder="enter your password" class="box" pattern = "(?=.*\d)(?=.*[a-z])(?=.*?[0-9])(?=.*?[~`!@#$%\^&*()\-_=+[\]{};:\x27.,\x22\\|/?><]).{8,}" title="Must contain at least one number, one symbol, one uppercase and lowercase letter, and at least 8 or more characters" required>
+      <input type="password" name="password" id = "password" placeholder="enter your password" class="box" pattern = "(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*?[0-9])(?=.*?[~`!@#$%\^&*()\-_=+[\]{};:\x27.,\x22\\|/?><]).{8,}" title="Must contain at least one number, one symbol, one uppercase and lowercase letter, and at least 8 or more characters" required>
       <input type="checkbox" onclick="pass()">Show Password
 
       <input type="password" name="cpassword" id = "cpassword" placeholder="confirm your password" class="box" title="Password does not match" required>
